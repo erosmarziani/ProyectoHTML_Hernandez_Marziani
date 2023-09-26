@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuildYourDreams</title>
+    <a href="index.html"><link rel="icon" href="img/logo principal.png" type="image/x-icon"> </a>
+    
+</head>
+
+<body>
+    <header>
+            <a href="index.html">
+                <img src="img/logo principal.png">
+                <h1>BUILD YOUR DREAMS</h1>
+
+            </a>
+    </header>
+    <hr>
+    <main>
+        <form action="index.html" ><h2>Datos de Facturacion</h2>
+            <label for="id-correo">Correo: </label>
+            <input type="email" id="id-mail" name="email" required>
+
+            <label for="id-name">Nombre: </label>
+            <input type="text" id="id-name" name="name" required>
+
+            <label for="id-surname">Apellido: </label>
+            <input type="text" id="id-surname" name="surname" required>
+
+            <label for="id-document">Tipo de Documento: </label>
+               <select>
+                    <option value="DNI">DNI</option>
+                    <option value="LU">LU</option>
+                    <option value="Pasaporte">Pasaporte</option>
+               </select> 
+            
+            <label for="id-number_document">Numero de documento</label>
+            <input type="number" id="id-number_document" name="number_document" required
+             minlength="10"
+             maxlength="20"
+            >
+
+            <label for="id-birthdate">Fecha De Nacimiento</label>
+            <input type="date" id="id-birthdate" name="birthdate" required
+            >
+            
+            <fieldset>
+                <legend>Medio de Pago </legend>
+                <label for="in-1c"> 1 </label>
+                <input type="radio" value="1" name="cuotas" id="in-1c">
+
+                <label for="in-3c"> 3 </label>
+                <input type="radio" value="3" name="cuotas" id="in-3c"> 
+
+                <label for="in-6c"> 6 </label>
+                <input type="radio" value="6" name="cuotas" id="in-6c"> 
+
+                <label for="in-12c"> 12 </label>
+                <input type="radio" value="12"name="cuotas" id="in-12c">
+            </fieldset>
+
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <p>Trabajo realizado por <strong>Eros Marziani y Joaquin Hernandez</strong></p>
+    </footer>
+</body>
